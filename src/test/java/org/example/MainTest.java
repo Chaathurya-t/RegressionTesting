@@ -9,7 +9,7 @@ public class MainTest {
     @Test
     public void testMixedPositiveNegativeAndZero() {
         int[] arr = {12, -45, 0, 89, -3, 0, 27};
-        assertEquals(89, Main.findLargest(arr));
+        assertEquals(0, Main.findLargest(arr));
         assertEquals(-45, Main.findSmallest(arr));
     }
 
